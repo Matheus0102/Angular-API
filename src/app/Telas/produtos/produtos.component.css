@@ -1,0 +1,26 @@
+.conteudoPrincipal .tituloDestaque{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.conteudoPrincipal .galeriaImagens{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card-body{
+    background-color: rgb(75, 75, 230);
+    color: white;
+}
+
+.text-center {
+    color: white;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}

@@ -1,0 +1,63 @@
+<header class="cabecalho">
+    <div class="container-fluid fixed-top">
+        <div class="row bg-dark d-flex h-100 align-items-center">
+            <div class="col-2">
+                <nav class="navbar">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="../assets/fotos/Logo.png" alt="logo-marca" width="45" height="45"
+                                class="d-inline-block align-text-top"> Games Mania
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-1">
+                <div class="d-flex h-100 align-items-center corFundo">
+                    <div class="p-2 flex-grow-1 cor">
+                        <li class="nav justify-content-end">
+                            <button (click)="setFontSize('a-')">A-</button>
+                            <button (click)="setFontSize('a')">A</button>
+                            <button (click)="setFontSize('a+')">A+</button>
+                        </li>      
+                    </div>
+                </div>        
+            </div>
+            <div class="col-4">
+                <div class="d-flex h-100 align-items-center">
+                    <div class="p-2 flex-grow-1">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="vamos jogar o que ?"
+                                aria-label="Search">
+                            <button class="btn btn-primary" type="submit">Procurar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="d-flex h-100 align-items-center">
+                    <div class="p-2 flex-grow-1">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/home">Tela
+                                    Principal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/produtos">Nossos Produtos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Empresa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contato">Nosso Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/login">Login/Cadastre-se</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+

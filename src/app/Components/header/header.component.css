@@ -1,0 +1,8 @@
+.cabecalho{
+    color: blue;
+}
+
+.cabecalho .corFundo{
+    background-color: black;
+    width: fit-content;
+}

@@ -1,0 +1,35 @@
+section{
+    height: 400px;
+    margin-top: 20px;
+}
+
+section .titulo{
+    font-family: roboto, Arial;
+    color: white;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.quadrado{
+    display: block;
+    position: absolute;
+	left: 0%;
+	top: 30%;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: darkblue;
+    color: white;
+    border-radius: 20%;
+    width: 200px;
+}

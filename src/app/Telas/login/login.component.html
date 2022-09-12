@@ -1,0 +1,17 @@
+
+<body>
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div class="Tela-Login">
+            <h1>Login</h1>
+            <input type="text" name="nome" ngModel placeholder="Nome" id="nome">
+            <br><br>
+            <input type="Password" name="senha" ngModel placeholder="Senha" id="senha">
+            <br><br>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+
+<app-header></app-header>
+
+
